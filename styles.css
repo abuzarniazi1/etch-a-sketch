@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: auto;; /* Set the width to 700 pixels */
+    height: auto; /* Set the height to 700 pixels */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+ .square {
+    border: 1px solid gray;
+    min-width: 25px;
+    min-height: 25px;
+    display: inline-block;
+}
+
+.black{
+ background-color: black;
+} 
+
+.myBtn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
